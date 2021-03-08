@@ -61,3 +61,5 @@ export const tests = [
     link: "https://github.com/sirzes02/aplicacion_compras",
   },
 ];
+
+export const history = [];
