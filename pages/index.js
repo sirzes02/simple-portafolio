@@ -37,11 +37,16 @@ const Index = () => {
                 <h1>Santiago Varela</h1>
                 <h3>Frontend - Backend Developer</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-                  blanditiis provident repellendus autem molestiae minus,
-                  eligendi deleniti suscipit laboriosam error distinctio
-                  consequuntur voluptates, harum ipsum aperiam veniam in, sunt
-                  a!
+                  Responsible person, with experience in managing environments
+                  and different programming languages ​​to FrontEnd and BackEnd
+                  level. Management of different Frameworks and libraries for
+                  development both web and mobile, among these, Laravel, React,
+                  React-native, ASP.NET and Svelte. Person with knowledge of
+                  programming in languages ​​such as C, C ++, Java, Kotlin,
+                  Python, MatLab and JavaScript. Enthusiast of virtual and
+                  augmented realities with the management of the ThreeJS library
+                  and the use from Unity. Knowledge in handling UNIX systems;
+                  Docker handling. a!
                 </p>
                 <button type="button" class="btn btn-secondary" onClick={alert}>
                   Contact me
