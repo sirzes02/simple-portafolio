@@ -4,8 +4,8 @@ import { history } from "../profile";
 const Blog = () => (
   <Layout footer={false} dark title="My history">
     <div className="row">
-      {history.map(({ name, description, from, to }) => (
-        <div className="col-md-12 py-2">
+      {history.map(({ name, description, from, to }, i) => (
+        <div className="col-md-12 py-2" key={i}>
           <div className="card">
             <div className="card-body">
               <div className="row">

@@ -35,6 +35,13 @@ const Navbar = () => (
               </a>
             </Link>
           </li>
+          <li className="nav-item">
+            <Link href="/curriculum.pdf">
+              <a className="nav-link" href="#">
+                CV
+              </a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
