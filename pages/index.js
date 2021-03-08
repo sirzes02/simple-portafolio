@@ -92,7 +92,7 @@ const Index = () => (
                     <img
                       src={`/${image}`}
                       alt="test image"
-                      className="img-fluid border border-dark"
+                      className="img-fluid border border-dark card-img-top"
                     />
                   </div>
                   <div className="card-body">
@@ -105,6 +105,15 @@ const Index = () => (
                 </div>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-4">
+            <a
+              href="https://github.com/sirzes02"
+              target="_blank"
+              className="btn btn-outline-light"
+            >
+              More General Projects
+            </a>
           </div>
         </div>
       </div>
