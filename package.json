@@ -13,8 +13,8 @@
     "sweetalert2-react-content": "^3.3.1"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "start": "next start -p $PORT"
   }
 }
