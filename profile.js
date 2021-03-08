@@ -62,4 +62,26 @@ export const tests = [
   },
 ];
 
-export const history = [];
+export const history = [
+  {
+    name: "Technical College",
+    description:
+      "During this period of time, I managed to graduate as the best student of the course in the technical area of ​​systems, obtaining the best marks in the subject and high scores in government exams.",
+    from: 2005,
+    to: 2017,
+  },
+  {
+    name: "Information Systems Technology",
+    description:
+      "During this study period, I worked for the University as a Junior Developer in different educational projects in a research hotbed, I developed different projects for executive aspects of the University as well as for institutional accreditation; graduated with functional thesis; graduated with honors with a score of 4.56; Creditor of 5 scholarships for honors enrollment.",
+    from: 2017,
+    to: 2020,
+  },
+  {
+    name: "Systems Engineering",
+    description:
+      "Outstanding student in programming and mathematics subjects, finishing all algorithmic courses with a score of 5.0; monitor of programming courses I and II, data structure; secretary of the student branch of the IEEE",
+    from: 2020,
+    to: "now",
+  },
+];

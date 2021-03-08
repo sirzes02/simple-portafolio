@@ -12,7 +12,11 @@ const Github = ({ user, statusCode }) => {
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
             <h1>{user.name}</h1>
-            <img src={user.avatar_url} alt="github picture" />
+            <img
+              src={user.avatar_url}
+              alt="github picture"
+              className="rounded-circle"
+            />
             <div className="pt-3">
               <p>{user.bio}</p>
             </div>
